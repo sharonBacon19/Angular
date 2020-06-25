@@ -8,10 +8,7 @@ import { AcercaDeComponent } from './acerca-de/acerca-de.component';
 
 @NgModule({
   declarations: [InicioComponent, AcercaDeComponent],
-  imports: [
-    CommonModule,
-    InformativoRoutingModule
-  ],
-  exports: [InicioComponent, AcercaDeComponent]
+  imports: [CommonModule, InformativoRoutingModule],
+  exports: [InicioComponent]
 })
 export class InformativoModule { }

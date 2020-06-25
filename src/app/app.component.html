@@ -1,8 +1,7 @@
 <!-- Selector del encabezado definido en el módulo Core -->
 <app-encabezado></app-encabezado>
 <!-- routeroutlet: marcador de posición que Angular se llena dinámicamente según el estado actual del enrutador -->
+<app-inicio *ngIf="router.url=='/'"></app-inicio>
 <router-outlet></router-outlet>
 <!-- Selector del pie de página definido en el módulo Core -->
 <app-pie></app-pie>
-
-<router-outlet></router-outlet>
